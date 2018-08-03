@@ -1,0 +1,1 @@
+web: 'guncorn' projectNew.wsgi
