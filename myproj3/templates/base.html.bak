@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="#00ffff">
+<form action="./add">
+Enter fno:<input type="text" name="t1"><br>
+Enter sno:<input type="text" name="t2"><br>
+<input type="submit" value="add">
+</form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="#faebd7">
+<table border="1">
+    <tr>
+        <th>pid</th>
+        <th>pname</th>
+        <th>pcost</th>
+        <th>pmfdt</th>
+        <th>pexpdt</th>
+    </tr>
+    {% for recs in record  %}
+        <tr>
+            <td>{{ recs.pid }}</td>
+            <td>{{ recs.pname }}</td>
+            <td>{{ recs.pcost }}</td>
+            <td>{{ recs.pmfdt }}</td>
+            <td>{{ recs.pexpdt }}</td>
+        </tr>
+
+    {% endfor %}
+
+</table>
+<a href="/app6product">Click insert Product</a>
+
+</body>
+</html>
